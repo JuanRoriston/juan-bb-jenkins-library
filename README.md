@@ -1,1 +1,1 @@
-# juan-bb-jenkins-librarie
+# juan-bb-jenkins-library
