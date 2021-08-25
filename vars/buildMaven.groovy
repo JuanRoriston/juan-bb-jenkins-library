@@ -10,8 +10,8 @@ def call() {
     url: 'https://github.com/JuanRoriston/juan-bb-jenkins-library.git'
 
     // Test Maven on a Unix agent.
-    sh "mvn test -f ./my-app/"
+    sh "mvn test -f /my-app/"
 
     //Build Project
-    sh "mvn clean install -f ./my-app/"
+    sh "mvn clean install -f /my-app/"
 }
