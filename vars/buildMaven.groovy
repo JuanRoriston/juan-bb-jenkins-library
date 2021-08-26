@@ -7,7 +7,7 @@ def call() {
     // url: 'git@github.com:JuanRoriston/juan-bb-hello-world.git'
 
     // Without HTTPS access
-    url: 'https://github.com/JuanRoriston/juan-bb-jenkins-library.git'
+    url: 'https://github.com/JuanRoriston/juan-bb-hello-world.git'
 
     // Test Maven on a Unix agent.
     sh "mvn test -f /my-app/"
